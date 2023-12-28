@@ -10,6 +10,19 @@ import { styButtonWrapper } from './styles';
 
 import { css } from '@emotion/core';
 
+// eslint-disable-next-line import/no-unresolved
+import styled from 'styled-components';
+
+const CustomHr = styled.hr`
+  width: 500px;
+  border-color: rgb(168, 131, 89);
+  margin-top: 80px;
+
+  @media (max-width: 768px) {
+    width: 200px;
+  }
+`;
+
 export const styCenterFlex = css`
   display: flex;
   justify-content: center;
@@ -32,7 +45,7 @@ function WeddingSection({ isInvitation }) {
             <div className="col-md-10 col-md-offset-1">
               <WeddingInfoBox
                 title="Ceremony"
-                time="10.00 AM"
+                time="08.00 AM"
                 date="Saturday, February 10th 2024"
                 description="Stanseveien 6, 0975 Oslo"
                 location1="Get Loaction"
@@ -58,9 +71,10 @@ function WeddingSection({ isInvitation }) {
           </div>
         </div>
       </div>
-      <div>
+      <CustomHr />
+      {/* <div>
         <hr style={{ width: '500px', borderColor: 'rgb(168, 131, 89)', height: '20px' }}></hr>
-      </div>
+      </div> */}
     </Fragment>
   );
 }

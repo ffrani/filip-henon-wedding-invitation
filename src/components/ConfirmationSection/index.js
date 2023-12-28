@@ -1,8 +1,18 @@
 import React from 'react';
 import { string, bool } from 'prop-types';
-import { Link } from 'gatsby';
+import { styWrapper } from './styles';
+// eslint-disable-next-line import/no-unresolved
+import styled from 'styled-components';
 
-import { styWrapper, styFlex } from './styles';
+const CustomHr = styled.hr`
+  width: 500px;
+  border-color: rgb(168, 131, 89);
+  margin-top: 80px;
+
+  @media (max-width: 768px) {
+    width: 200px;
+  }
+`;
 
 function ConfirmationSection({ isInvitation, guestName, codeLink }) {
   return (
@@ -14,9 +24,10 @@ function ConfirmationSection({ isInvitation, guestName, codeLink }) {
             {!guestName && <h2 className="main-font">{` Thank You`}</h2>}
             {guestName && <h2 className="main-font">{` Apakah kamu hadir, ${guestName}?`}</h2>}
             <p>For your presence & blessings</p>
-            <div>
+            <CustomHr />
+            {/* <div>
               <hr style={{ width: '500px', borderColor: 'rgb(168, 131, 89)', marginTop: '80px' }}></hr>
-            </div>
+            </div> */}
           </div>
         </div>
         {/* {isInvitation && (

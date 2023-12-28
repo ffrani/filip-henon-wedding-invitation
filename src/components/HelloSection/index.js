@@ -6,6 +6,19 @@ import Groom from '@assets/images/p-miftah.jpg';
 
 import { styWrapper } from './styles';
 
+// eslint-disable-next-line import/no-unresolved
+import styled from 'styled-components';
+
+const CustomHr = styled.hr`
+  width: 500px;
+  border-color: rgb(168, 131, 89);
+  margin-top: 80px;
+
+  @media (max-width: 768px) {
+    width: 200px;
+  }
+`;
+
 function HelloSection({ isInvitation }) {
   // const finalSubtitle = 'Minggu, 11 September 2022';
 
@@ -50,12 +63,14 @@ function HelloSection({ isInvitation }) {
                 </p>
               </div>
             </div>
+            <img src="../../assets/images/instagram.png" alt="insta"></img>
           </div>
         </div>
       </div>
-      <div>
+      <CustomHr />
+      {/* <div>
         <hr style={{ width: '500px', borderColor: 'rgb(168, 131, 89)' }}></hr>
-      </div>
+      </div> */}
     </Fragment>
   );
 }

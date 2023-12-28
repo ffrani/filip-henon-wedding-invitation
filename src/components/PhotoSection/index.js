@@ -2,6 +2,18 @@ import React from 'react';
 import ImageGallery from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';
 import { photos } from './photo-data';
+// eslint-disable-next-line import/no-unresolved
+import styled from 'styled-components';
+
+const CustomHr = styled.hr`
+  width: 500px;
+  border-color: rgb(168, 131, 89);
+  margin-top: 80px;
+
+  @media (max-width: 768px) {
+    width: 200px;
+  }
+`;
 
 function PhotoSection() {
   return (
@@ -21,9 +33,10 @@ function PhotoSection() {
           </div>
         </div>
       </div>
-      <div>
+      <CustomHr />
+      {/* <div>
         <hr style={{ width: '500px', borderColor: 'rgb(168, 131, 89)', marginTop: '80px' }}></hr>
-      </div>
+      </div> */}
     </div>
   );
 }
