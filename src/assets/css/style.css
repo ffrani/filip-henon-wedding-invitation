@@ -1166,6 +1166,15 @@ form label {
     color: white;
   }
 
+  @keyframes scrollAnimation {
+    0% {
+      background-position: 0% center;
+    }
+    100% {
+      background-position: 100% center;
+    }
+  }
+
   .couple-half {
     text-align: center;
     border: 1px;
@@ -1178,6 +1187,7 @@ form label {
     background-image: url('../images//finalback.png');
     background-position: center center;
     background-size: cover;
+    animation: scrollAnimation 10s linear infinite;
   }
   .couple-half .desc-groom {
     padding-right: 0;
@@ -1244,11 +1254,10 @@ form label {
   line-height: 1.5;
   font-weight: 500;
   color: rgb(168, 131, 89);
-  font-family: 'Sacramento', Arial, serif;
 }
 @media screen and (max-width: 768px) {
   .fh5co-heading h2 {
-    font-size: 40px;
+    font-size: 60px;
   }
 }
 .fh5co-heading p {
@@ -1990,7 +1999,7 @@ form label {
   }
 
   .main-font__wedding {
-    font-size: 32px !important;
+    font-size: 50px !important;
   }
 
   .sub-title__wedding {

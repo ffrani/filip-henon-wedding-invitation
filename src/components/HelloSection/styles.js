@@ -12,8 +12,9 @@ export const styWrapper = css`
   }
 
   p {
-    font-size: 36px;
+    font-size: 30px;
     margin-top: 16px;
+    font-family: 'Cookie', cursive;
   }
 
   @media screen and (max-width: 500px) {
