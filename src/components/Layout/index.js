@@ -8,8 +8,8 @@ import '@assets/css/icomoon.css';
 import '@assets/css/bootstrap.css';
 import '@assets/css/style.css';
 
-const IMAGE_URL = `https://miftahussalam.com/images/khitbahmeta.jpg`;
-const META_DESCRIPTION = `Dengan memohon Rahmat dan Ridho Illahi, teriring niat menjalankan Sunnah Rasulullah ﷺ untuk membentuk rumah tangga yang Sakinah, Mawaddah wa Rahmah, kami mohon do'a agar senantiasa diberikan kelancaran dan keberkahan. - Arin & Miftah`;
+// const IMAGE_URL = `https://miftahussalam.com/images/khitbahmeta.jpg`;
+// const META_DESCRIPTION = `Dengan memohon Rahmat dan Ridho Illahi, teriring niat menjalankan Sunnah Rasulullah ﷺ untuk membentuk rumah tangga yang Sakinah, Mawaddah wa Rahmah, kami mohon do'a agar senantiasa diberikan kelancaran dan keberkahan. - Arin & Miftah`;
 
 function MainLayout({ children }) {
   return (
@@ -22,14 +22,14 @@ function MainLayout({ children }) {
 
         {/* font and SEO tags */}
         {/* <meta property="og:title" content="The Wedding of Arin & Miftah" /> */}
-        <meta property="og:image" itemprop="image" content={IMAGE_URL} />
+        {/* <meta property="og:image" itemprop="image" content={IMAGE_URL} /> */}
         <meta property="og:url" content="https://arin.miftahussalam.com" />
         {/* <meta property="og:site_name" content="The Wedding of Arin & Miftah" /> */}
-        <meta property="og:description" content={META_DESCRIPTION} />
+        {/* <meta property="og:description" content={META_DESCRIPTION} /> */}
         <meta property="og:type" content="website" />
         {/* <meta name="twitter:title" content="The Wedding of Arin & Miftah" /> */}
-        <meta name="twitter:description" content={META_DESCRIPTION} />
-        <meta name="twitter:image" content={IMAGE_URL} />
+        {/* <meta name="twitter:description" content={META_DESCRIPTION} /> */}
+        {/* <meta name="twitter:image" content={IMAGE_URL} /> */}
         {/* <meta name="twitter:url" content="https://arin.miftahussalam.com" /> */}
         <meta name="twitter:card" content="summary" />
         {/* <meta name="twitter:creator" content="@mif_salam" /> */}
