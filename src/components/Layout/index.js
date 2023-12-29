@@ -18,7 +18,7 @@ function MainLayout({ children }) {
         <title>Filip ❤️ Henon Wedding</title>
 
         {/* Favicon */}
-        <link rel="icon" type="image/png" href={Favicon} />
+        {/* <link rel="icon" type="image/png" href={Favicon} /> */}
 
         {/* font and SEO tags */}
         <meta property="og:title" content="The Wedding of Arin & Miftah" />
