@@ -51,6 +51,8 @@ function MainLayout({ children }) {
           rel="stylesheet"
           type="text/css"
         />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
+        <link href="https://fonts.googleapis.com/css2?family=Kavoon&display=swap" rel="stylesheet"></link>
         <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet"></link>
       </Helmet>
       <div id="page">{children}</div>
