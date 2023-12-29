@@ -9,7 +9,7 @@ function LayoutTicket({ children }) {
   return (
     <>
       <Helmet>
-        <link rel="icon" type="image/png" href={Favicon} />
+        {/* <link rel="icon" type="image/png" href={Favicon} /> */}
         <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet"></link>
         <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet" />
       </Helmet>
