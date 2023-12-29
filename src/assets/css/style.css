@@ -1169,9 +1169,13 @@ form label {
     border: 1px;
     padding-bottom: 20px;
     /* background-image: url('../images/back2.jpg'); */
-    background-color: rgb(168, 131, 89);
+    /* background-color: rgb(168, 131, 89); */
     border-radius: 15px;
     margin-bottom: 20px;
+    background-color: #ac8e6c;
+    background-image: url('../images//finalback.png');
+    background-position: center center;
+    background-size: cover;
   }
   .couple-half .desc-groom {
     padding-right: 0;
