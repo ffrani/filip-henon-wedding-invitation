@@ -9,8 +9,10 @@ function FooterSection({ isInvitation }) {
           <div className="row copyright">
             <div className="col-md-12 text-center">
               <p>
-                <small className="block">&copy; 2024 Created by Filip & Henon</small>
-                <small className="block">
+                <small className="block" style={{ color: 'white' }}>
+                  &copy; 2024 Created by Filip & Henon
+                </small>
+                <small className="block" style={{ color: 'white' }}>
                   Song by{' '}
                   <a href="https://www.youtube.com/watch?v=BEeZnqbre6I" target="_blank" rel="noreferrer">
                     Bruno Mars - Marry you

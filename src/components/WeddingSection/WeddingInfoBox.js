@@ -33,6 +33,7 @@ function WeddingInfoBox({ title, date, time, description, location1, location2 }
                   border: '1px solid rgb(168, 131, 89)',
                   borderRadius: '10px',
                   fontSize: '15px',
+                  color: 'white',
                 }}
               >
                 Get Location
@@ -53,6 +54,7 @@ function WeddingInfoBox({ title, date, time, description, location1, location2 }
                   border: '1px solid rgb(168, 131, 89)',
                   borderRadius: '10px',
                   fontSize: '15px',
+                  color: 'white',
                 }}
               >
                 Get Location

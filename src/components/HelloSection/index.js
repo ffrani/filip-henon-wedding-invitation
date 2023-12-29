@@ -40,30 +40,35 @@ function HelloSection({ isInvitation }) {
                 <img src={Bride} alt="groom" className="img-responsive" loading="lazy" />
               </div>
               <div className="desc-groom">
-                <h3 className="main-font">Henon Ogbazion</h3>
-                <p className="parent-name parent-name__top">
-                  Daughter of Mr. Ogbazion Hadgu <br />& Mrs. Hiwet Hagos
+                <h3 className="main-font">Henon</h3>
+                <p className="parent-name parent-name__top" style={{ color: 'white' }}>
+                  The daughter of: <br /> Mr. Ogbazion Hadgu <br /> & <br /> Mrs. Hiwet Hagos
                 </p>
+                <a href="https://www.instagram.com/henon.h/" target="_blank">
+                  <i class="fa-brands fa-instagram" style={{ fontSize: '40px', color: 'white' }}></i>
+                </a>
               </div>
             </div>
             <p className="heart text-center">
               <i className="icon-heart2"></i>
             </p>
-            <div className="and-love">
-              <i>&</i>
-            </div>
+            <div className="and-love"></div>
             <div className="couple-half">
               <div className="bride">
                 <img src={Groom} alt="groom" className="img-responsive" loading="lazy" />
               </div>
               <div className="desc-bride">
-                <h3 className="main-font">Filip Franicevic</h3>
-                <p className="parent-name">
-                  Son of Mr. Tonci Franicevic <br />& Marijana Franicevic
+                <h3 className="main-font">Filip</h3>
+                <p className="parent-name" style={{ color: 'white' }}>
+                  The son of: <br></br>
+                  Mr. Tonci Franicevic <br />& <br />
+                  Marijana Franicevic
                 </p>
+                <a href="https://www.instagram.com/flikas22/" target="_blank">
+                  <i class="fa-brands fa-instagram" style={{ fontSize: '40px', color: 'white' }}></i>
+                </a>
               </div>
             </div>
-            <img src="../../assets/images/instagram.png" alt="insta"></img>
           </div>
         </div>
       </div>

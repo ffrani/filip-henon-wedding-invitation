@@ -78,7 +78,7 @@ figure {
   color: #000;
   font-family: 'Work Sans', Arial, sans-serif;
   font-weight: 400;
-  margin: 0 0 70px 0;
+  margin: 0 0 40px 0;
 }
 
 ::-webkit-selection {
@@ -1097,8 +1097,9 @@ form label {
 }
 .couple-half h3 {
   font-family: 'Sacramento', Arial, serif;
-  color: rgb(168, 131, 89);
+  color: white;
   font-size: 30px;
+  margin-top: 30px;
 }
 .couple-half .groom,
 .couple-half .bride {
@@ -1114,10 +1115,10 @@ form label {
 .couple-half .bride img {
   width: 150px;
   height: 150px;
-  -webkit-border-radius: 50%;
+  /* -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
+  -ms-border-radius: 50%; */
+  border-radius: 12px;
 }
 @media screen and (max-width: 480px) {
   .couple-half .groom,
@@ -1129,7 +1130,7 @@ form label {
   .couple-half .bride img {
     width: 120px;
     height: 120px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
   }
 }
 .couple-half .groom {
@@ -1153,6 +1154,24 @@ form label {
   .couple-half .bride {
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .couple-half p {
+    color: white;
+    margin-bottom: 20px;
+  }
+  .couple-half i {
+    color: white;
+  }
+
+  .couple-half {
+    text-align: center;
+    border: 1px;
+    padding-bottom: 20px;
+    /* background-image: url('../images/back2.jpg'); */
+    background-color: rgb(168, 131, 89);
+    border-radius: 15px;
+    margin-bottom: 20px;
   }
   .couple-half .desc-groom {
     padding-right: 0;
