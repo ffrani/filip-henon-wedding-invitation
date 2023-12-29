@@ -44,7 +44,7 @@ function WeddingInfoBox({ title, date, time, description, location1, location2 }
         {location2 && (
           <div className="event-col" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <a
-              href="https://www.google.com/maps/place/Stanseveien+6,+0975+Oslo/@59.9463725,10.8690946,17z/data=!3m1!4b1!4m6!3m5!1s0x46416ffd237b409f:0xa59ff30c23628e30!8m2!3d59.9463698!4d10.8716695!16s%2Fg%2F11c29dxzfv?entry=ttu"
+              href="https://www.google.com/maps/place/Eventhallen/@59.9148919,10.8239648,17z/data=!3m1!4b1!4m6!3m5!1s0x46416fa69a5426b9:0x8ccf5b55dac6d01c!8m2!3d59.9148892!4d10.8265397!16s%2Fg%2F1hc30mzkh?entry=ttu"
               target="_blank"
               rel="noreferrer"
             >

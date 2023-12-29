@@ -61,7 +61,7 @@ function HelloSection({ isInvitation }) {
                 <p className="parent-name" style={{ color: 'white' }}>
                   The son of: <br></br>
                   Mr. Tonci Franicevic <br />& <br />
-                  Marijana Franicevic
+                  Mrs. Marijana Franicevic
                 </p>
                 <a href="https://www.instagram.com/flikas22/" target="_blank">
                   <i class="fa-brands fa-instagram" style={{ fontSize: '40px', color: 'white' }}></i>
