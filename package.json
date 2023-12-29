@@ -1,6 +1,6 @@
 {
   "name": "filip-henon-wedding-invitation",
-  "homepage": "https://ffrani.github.io/filip-henon-wedding-invitation",
+  "homepage": "http://ffrani.github.io/filip-henon-wedding-invitation",
   "private": true,
   "description": "A simplified bare-bones starter for Gatsby",
   "version": "0.1.0",
@@ -14,7 +14,7 @@
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emoji-mart/data": "^1.0.5",
