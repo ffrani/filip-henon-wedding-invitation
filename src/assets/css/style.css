@@ -1098,7 +1098,7 @@ form label {
 .couple-half h3 {
   font-family: 'Sacramento', Arial, serif;
   color: white;
-  font-size: 30px;
+  font-size: 45px;
   margin-top: 30px;
 }
 .couple-half .groom,
@@ -1157,8 +1157,10 @@ form label {
   }
 
   .couple-half p {
+    font-family: 'Cookie', cursive;
     color: white;
     margin-bottom: 20px;
+    font-size: 60px;
   }
   .couple-half i {
     color: white;

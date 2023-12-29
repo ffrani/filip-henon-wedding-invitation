@@ -30,7 +30,7 @@ function HelloSection({ isInvitation }) {
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
               <h2 className="main-font">Filip Franicevic & Henon Ogbazion</h2>
               <h3 className="sub-title hs">
-                You are invited to celebrate our wedding in Oslo on the 10th of February 2024
+                You are invited to celebrate our wedding in Oslo on the <br /> 10th of February 2024
               </h3>
             </div>
           </div>
