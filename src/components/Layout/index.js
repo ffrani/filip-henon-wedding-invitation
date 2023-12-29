@@ -21,18 +21,18 @@ function MainLayout({ children }) {
         {/* <link rel="icon" type="image/png" href={Favicon} /> */}
 
         {/* font and SEO tags */}
-        <meta property="og:title" content="The Wedding of Arin & Miftah" />
+        {/* <meta property="og:title" content="The Wedding of Arin & Miftah" /> */}
         <meta property="og:image" itemprop="image" content={IMAGE_URL} />
         <meta property="og:url" content="https://arin.miftahussalam.com" />
-        <meta property="og:site_name" content="The Wedding of Arin & Miftah" />
+        {/* <meta property="og:site_name" content="The Wedding of Arin & Miftah" /> */}
         <meta property="og:description" content={META_DESCRIPTION} />
         <meta property="og:type" content="website" />
-        <meta name="twitter:title" content="The Wedding of Arin & Miftah" />
+        {/* <meta name="twitter:title" content="The Wedding of Arin & Miftah" /> */}
         <meta name="twitter:description" content={META_DESCRIPTION} />
         <meta name="twitter:image" content={IMAGE_URL} />
-        <meta name="twitter:url" content="https://arin.miftahussalam.com" />
+        {/* <meta name="twitter:url" content="https://arin.miftahussalam.com" /> */}
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:creator" content="@mif_salam" />
+        {/* <meta name="twitter:creator" content="@mif_salam" /> */}
         <script
           src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/fontawesome.min.js"
           integrity="sha512-C8qHv0HOaf4yoA7ISuuCTrsPX8qjolYTZyoFRKNA9dFKnxgzIHnYTOJhXQIt6zwpIFzCrRzUBuVgtC4e5K1nhA=="
