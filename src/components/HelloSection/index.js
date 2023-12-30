@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react';
 import { bool } from 'prop-types';
 
-import Bride from '@assets/images/wonderwoman.png';
-import Groom from '@assets/images/batman-avatar.jpg';
+import Bride from '@assets/images/henon-avatar4.jpg';
+import Groom from '@assets/images/filip-avatar1.jpg';
 import { styWrapper } from './styles';
 
 // eslint-disable-next-line import/no-unresolved
