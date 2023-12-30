@@ -73,27 +73,7 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
               <h4 className="sub-title">The Wedding of</h4>
               <h1 className="title">Filip &amp; Henon</h1>
               <h4 className="sub-title">Saturday, February 10th 2024</h4>
-              {/* <div className={isAnonymGuest ? 'margin__bottom' : ''}>
-                <CountContainer />
-              </div> */}
-              {/* <div className="row" css={styButtonWrapper}>
-                <div className="col-md-3">
-                  <a href={GOOGLE_CALENDAR_LINK} title="Add to My Calendar" target="_blank" rel="noreferrer">
-                    <button className="btn btn-default btn-block">Add to Calendar</button>
-                  </a>
-                </div>
-              </div> */}
               <br></br>
-              {/* {renderGuestSection()}
-              {isInvitation && (
-                <div className="row" css={styButtonWrapper}>
-                  <div className="col-md-3">
-                    <Link to={`/e-ticket?${codeLink}`}>
-                      <button className="btn btn-default btn-block">Lihat e-Ticket</button>
-                    </Link>
-                  </div>
-                </div>
-              )} */}
             </div>
           </div>
           <br></br>

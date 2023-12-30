@@ -26,8 +26,14 @@ export const styMusicFloating = css`
 
   @media screen and (max-width: 360px) {
     .icon-music {
+      width: 50px;
+      left: 10px;
+    }
+  }
+  @media screen and (max-width: 280px) {
+    .icon-music {
       width: 30px;
-      left: 20px;
+      left: 10px;
     }
   }
 `;

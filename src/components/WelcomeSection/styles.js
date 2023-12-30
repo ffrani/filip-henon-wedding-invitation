@@ -1,10 +1,10 @@
 import { css, keyframes } from '@emotion/core';
-import Background from '@assets/images/back2.jpg';
+import Background from '@assets/images/test11.jpg';
+import BackgroundPhone from '@assets/images/main-background.jpg';
 
 export const styHero = css`
   width: 100%;
   height: 100vh;
-  background-image: url('..//../assets/images/back2.jpg');
 `;
 
 const radarAnimation = keyframes`
@@ -47,23 +47,50 @@ export const styScrollWrapper = css`
       border: 1px solid black;
       border-radius: 12px;
       color: black;
+      margin-right: 117px;
     }
 
     i {
       padding-right: 5px;
     }
 
+    @media screen and (max-width: 820px) {
+      .text {
+        bottom: 80px;
+        font-size: 25px;
+        margin-right: 0;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      .text {
+        bottom: 80px;
+        font-size: 25px;
+        margin-right: 0;
+      }
+    }
+
+    @media screen and (max-width: 500px) {
+      .text {
+        bottom: 80px;
+        font-size: 25px;
+        margin-right: 0;
+      }
+    }
+
     @media screen and (max-width: 414px) {
       .text {
         bottom: 80px;
         font-size: 25px;
+        margin-right: 0;
       }
     }
 
     @media screen and (max-width: 360px) {
       .text {
         bottom: 60px;
-        font-size: 12px;
+        font-size: 20px;
+        margin-right: 0;
       }
     }
   }
@@ -149,6 +176,9 @@ export const styBackground = css`
     }
   }
 
+  @media screen and (max-width: 898px) {
+    background-image: url(${BackgroundPhone});
+  }
   @media screen and (max-width: 500px) {
     .title {
       font-size: 54px;
