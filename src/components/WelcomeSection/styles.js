@@ -90,7 +90,14 @@ export const styScrollWrapper = css`
     @media screen and (max-width: 360px) {
       .text {
         bottom: 60px;
-        font-size: 20px;
+        font-size: 15px;
+        margin-right: 0;
+      }
+    }
+    @media screen and (max-width: 320px) {
+      .text {
+        bottom: 60px;
+        font-size: 15px;
         margin-right: 0;
       }
     }
