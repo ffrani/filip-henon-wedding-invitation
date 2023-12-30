@@ -59,6 +59,7 @@ export const styScrollWrapper = css`
         bottom: 80px;
         font-size: 25px;
         margin-right: 0;
+        margin-bottom: 80px;
       }
     }
 
