@@ -1,5 +1,5 @@
 var plugins = [{
-      plugin: require('C:/Users/Filip/Desktop/wedding-master/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('C:/Users/Filip/Desktop/filip-henon-wedding-invitation/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:

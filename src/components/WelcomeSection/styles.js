@@ -209,7 +209,7 @@ export const styWrapper = css`
 
   h1 {
     margin-bottom: 0px;
-    font-size: 100px;
+    font-size: 50px;
     line-height: 1.5;
     font-family: 'Cookie', cursive;
     color: #fff;
