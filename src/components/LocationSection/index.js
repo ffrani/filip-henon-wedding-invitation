@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react';
 import { GOOGLE_MAPS_LINK } from '@/constants';
 import { styWrapper } from './styles';
-import Peta from '@assets/images/peta.jpeg';
 
 function LocationSection() {
   return (
@@ -43,7 +42,6 @@ function LocationSection() {
             <div className="row">
               <div className="col-md-10 col-md-offset-1">
                 <img
-                  src={Peta}
                   class="center"
                   display="block"
                   margin-left="auto"

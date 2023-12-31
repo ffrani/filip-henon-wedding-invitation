@@ -7,6 +7,7 @@ export const styWrapper = css`
 
   p {
     color: rgb(168, 131, 89) !important;
+    font-family: 'Kavoon', serif !important;
   }
 `;
 
