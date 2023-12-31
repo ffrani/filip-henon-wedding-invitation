@@ -47,7 +47,6 @@ export const styScrollWrapper = css`
       border: 1px solid black;
       border-radius: 12px;
       color: black;
-      margin-right: 117px;
     }
 
     i {

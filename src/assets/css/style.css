@@ -1097,7 +1097,7 @@ form label {
 }
 .couple-half h3 {
   font-family: 'Sacramento', Arial, serif;
-  color: white;
+  color: rgb(168, 131, 89);
   font-size: 45px;
   margin-top: 30px;
 }
@@ -1158,7 +1158,7 @@ form label {
 
   .couple-half p {
     font-family: 'Cookie', cursive;
-    color: white;
+    color: rgb(168, 131, 89);
     margin-bottom: 20px;
     font-size: 60px;
   }
