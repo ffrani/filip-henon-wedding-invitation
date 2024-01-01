@@ -299,6 +299,11 @@ export const styWrapperCount = css`
       font-size: 24px;
     }
   }
+  @media screen and (max-width: 280px) {
+    width: 50px !important;
+    height: 50px !important;
+    font-size: 10px;
+  }
 
   @media screen and (max-width: 380px) {
     width: 55px;
