@@ -1095,6 +1095,13 @@ form label {
     width: 100%;
   }
 }
+
+@media screen and (min-width: 480px) {
+  .couple-half .main-font {
+    color: rgb(168, 131, 89);
+  }
+}
+
 .couple-half h3 {
   font-family: 'Sacramento', Arial, serif;
   color: white;

@@ -11,9 +11,15 @@ export const styWrapper = css`
   }
 
   p {
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 16px;
     font-family: 'Kavoon', serif;
+  }
+
+  @media screen and (min-width: 480px) {
+    p {
+      color: rgb(168, 131, 89);
+    }
   }
 
   @media screen and (max-width: 500px) {
@@ -25,13 +31,22 @@ export const styWrapper = css`
     }
 
     p {
-      font-size: 30px;
+      font-size: 15px;
+      color: white;
     }
   }
 
   @media screen and (max-width: 400px) {
     p {
-      font-size: 14px;
+      font-size: 15px;
+      color: white;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    p {
+      font-size: 15px;
+      color: white;
     }
   }
 `;

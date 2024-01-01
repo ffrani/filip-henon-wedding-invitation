@@ -42,7 +42,7 @@ function HelloSection({ isInvitation }) {
               </div>
               <div className="desc-groom">
                 <h3 className="main-font">Henon</h3>
-                <p className="parent-name parent-name__top" style={{ color: 'white' }}>
+                <p className="parent-name parent-name__top">
                   The daughter of: <br /> Mr. Ogbazion Hadgu <br /> & <br /> Mrs. Hiwet Hagos
                 </p>
                 <a href="https://www.instagram.com/henon.h/" target="_blank">
@@ -60,7 +60,7 @@ function HelloSection({ isInvitation }) {
               </div>
               <div className="desc-bride">
                 <h3 className="main-font">Filip</h3>
-                <p className="parent-name" style={{ color: 'white' }}>
+                <p className="parent-name">
                   The son of: <br></br>
                   Mr. Tonci Franicevic <br />& <br />
                   Mrs. Marijana Franicevic
