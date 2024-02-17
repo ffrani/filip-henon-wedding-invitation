@@ -8,16 +8,16 @@ function CountContainer() {
   const { days, hours, minutes, seconds, timeHasRunOut, isEventOver } = useDateCountdown();
   const finalText = isEventOver ? 'SUDAH' : 'SEDANG';
 
-  if (timeHasRunOut)
-    return (
-      <>
-        <div className="row">
-          <div className="col-md-12" style={{ fontSize: '20px' }}>
-            {`ACARA ${finalText} BERLANGSUNG!`}
-          </div>
-        </div>
-      </>
-    );
+  // if (timeHasRunOut)
+  //   return (
+  //     <>
+  //       <div className="row">
+  //         <div className="col-md-12" style={{ fontSize: '20px', marginTop: '15px' }}>
+  //           {`HAPPILY MARRIED!`}
+  //         </div>
+  //       </div>
+  //     </>
+  //   );
 
   return (
     <div className="col-md-12" css={styMargin('0 0 16px 0')}>

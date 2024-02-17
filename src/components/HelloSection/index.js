@@ -62,8 +62,8 @@ function HelloSection({ isInvitation }) {
                 <h3 className="main-font">Filip</h3>
                 <p className="parent-name">
                   The son of: <br></br>
-                  Mr. Tonci Franicevic <br />& <br />
-                  Mrs. Marijana Franicevic
+                  Mr. Tonci Franičević <br />& <br />
+                  Mrs. Marijana Franičević
                 </p>
                 <a href="https://www.instagram.com/flikas22/" target="_blank">
                   <i class="fa-brands fa-instagram" style={{ fontSize: '40px', color: 'white' }}></i>
