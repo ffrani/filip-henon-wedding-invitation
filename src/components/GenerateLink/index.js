@@ -111,7 +111,7 @@ function GenerateLink() {
                 </tr>
               </thead>
               <tbody>
-                {data.map((d, index) => {
+                {/* {data.map((d, index) => {
                   const mapURL = `https://arin.miftahussalam.com?to=${encodeURIComponent(d.name).replace(
                     /%20/g,
                     '+',
@@ -136,7 +136,7 @@ function GenerateLink() {
                       </td>
                     </tr>
                   );
-                })}
+                })} */}
               </tbody>
             </table>
           </div>

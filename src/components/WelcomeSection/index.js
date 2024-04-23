@@ -69,7 +69,7 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
         <div className="container">
           <div className="row" css={styWrapper}>
             <div className="col-md-8 col-md-offset-2 text-center">
-              <img src={WeddingImg} alt="wedding-arin-miftah" />
+              <img src={WeddingImg} alt="filip-henon" />
               <h4 className="sub-title">The Wedding of</h4>
               <h1 className="title">Filip &amp; Henon</h1>
               <h4 className="sub-title">Saturday, February 10th 2024</h4>
