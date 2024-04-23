@@ -13,7 +13,7 @@ function GenerateLink() {
 
   const { data, loading } = useGuestData();
 
-  const URL = `https://arin.miftahussalam.com?to=${encodeURIComponent(name).replace(/%20/g, '+')}`;
+  // const URL = `https://arin.miftahussalam.com?to=${encodeURIComponent(name).replace(/%20/g, '+')}`;
 
   const handleChange = (e) => {
     setType(parseInt(e.target.value, 10));
