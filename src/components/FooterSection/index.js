@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import { bool } from 'prop-types';
 
-function FooterSection({ isInvitation }) {
+function FooterSection() {
   return (
     <Fragment>
       <footer id="fh5co-footer" role="contentinfo">
@@ -18,12 +18,6 @@ function FooterSection({ isInvitation }) {
                     Bruno Mars - Marry you
                   </a>
                 </small>
-                {/* <small className="block">
-                  Original Template from{' '}
-                  <a href="http://freehtml5.co/" target="_blank" rel="noreferrer">
-                    FREEHTML5.co
-                  </a>
-                </small> */}
               </p>
             </div>
           </div>

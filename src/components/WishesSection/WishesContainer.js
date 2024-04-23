@@ -8,7 +8,7 @@ import { string } from 'prop-types';
 
 const INTERVAL_SLIDE = 35000;
 
-function WishesContainer( {codeLink} ) {
+function WishesContainer({ codeLink }) {
   const [active, setActive] = useState(0);
   const [pauseSlide, setPauseSlide] = useState(false);
   const totalWishes = wishlist.length || 0;
@@ -69,15 +69,18 @@ function WishesContainer( {codeLink} ) {
       </div>
       <br></br>
       <div css={styButtonWrapper}>
-        <Link to={`/send-wishes?${codeLink}`}>
+        {/* <Link to={`/send-wishes?${codeLink}`}>
           <button className="btn btn-default btn-block">Tulis Pesan</button>
-        </Link>
+        </Link> */}
       </div>
       <br></br>
       <div css={styButtonWrapper}>
-        <span align="center">Note: Bagi yang merasa beberapa hari lalu sudah mengirimkan pesan tapi belum muncul, silahkan untuk kirim ulang dikarenakan ada kesalahan teknis 🙏</span>
+        <span align="center">
+          Note: Bagi yang merasa beberapa hari lalu sudah mengirimkan pesan tapi belum muncul, silahkan untuk kirim
+          ulang dikarenakan ada kesalahan teknis 🙏
+        </span>
       </div>
-      </div>
+    </div>
   );
 }
 

@@ -7,6 +7,6 @@ exports.components = {
   "component---src-pages-generate-link-js": () => import("./../../../src/pages/generate-link.js" /* webpackChunkName: "component---src-pages-generate-link-js" */),
   "component---src-pages-generate-qr-js": () => import("./../../../src/pages/generate-qr.js" /* webpackChunkName: "component---src-pages-generate-qr-js" */),
   "component---src-pages-index-js": () => import("./../../../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
-  "component---src-pages-send-wishes-js": () => import("./../../../src/pages/send-wishes.js" /* webpackChunkName: "component---src-pages-send-wishes-js" */)
+  // "component---src-pages-send-wishes-js": () => import("./../../../src/pages/send-wishes.js" /* webpackChunkName: "component---src-pages-send-wishes-js" */)
 }
 

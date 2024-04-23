@@ -1,7 +1,6 @@
 import React from 'react';
 import { string, bool } from 'prop-types';
 import { styWrapper } from './styles';
-// eslint-disable-next-line import/no-unresolved
 import styled from 'styled-components';
 
 const CustomHr = styled.hr`
@@ -21,33 +20,11 @@ function ConfirmationSection({ isInvitation, guestName, codeLink }) {
       <div className="container">
         <div className="row">
           <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-            {!guestName && <h2 className="main-font">{` Thank You`}</h2>}
-            {guestName && <h2 className="main-font">{` Apakah kamu hadir, ${guestName}?`}</h2>}
+            <h2 className="main-font">{` Thank You`}</h2>
             <p>For your presence & blessings</p>
             <CustomHr />
-            {/* <div>
-              <hr style={{ width: '500px', borderColor: 'rgb(168, 131, 89)', marginTop: '80px' }}></hr>
-            </div> */}
           </div>
         </div>
-        {/* {isInvitation && (
-          <div className="row" css={styFlex}>
-            <div className="col-md-3">
-              <Link to={`e-ticket?${codeLink}`}>
-                <button className="btn btn-default btn-block">Lihat e-Ticket</button>
-              </Link>
-            </div>
-          </div>
-        )}
-        {!isInvitation && (
-          <div className="row" css={styFlex}>
-            <div className="col-md-3">
-              <br></br>
-              <br></br>
-              <br></br>
-            </div>
-          </div>
-        )} */}
       </div>
     </div>
   );
